@@ -1,0 +1,17 @@
+Introducción:
+
+Los microservicios cuando se despliegan, se van a comunicar con Eureka server y
+van a registrar el nombre de la máquina o IP y el puerto.
+Como respuesta, una vez que estén registrados, le pasa el registro completo
+de los demás microservicios registrados en dicho ecosistema, de modo que se pueden
+comunicar y escalar de forma automática, sin que sea necesario especificar IP, nombre de dominio, puerto,
+ni nada.
+Se conectan los microservicios, en forma automática, usando el nombre del microservicio.
+
+Introduction: 
+
+When microservices deploy, they connect to Eureka server and register their names
+in the machine or IP, and the port.
+Then, once they are registered, Eureka pass them the full registry of others microservices in 
+this ecosystem, so that they can communicate and scale with each other, automaticaly, without
+being necesary spicify IP, domain name, or anything.
