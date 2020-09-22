@@ -8,7 +8,7 @@ comunicar y escalar de forma automática, sin que sea necesario especificar IP, 
 ni nada.
 Se conectan los microservicios, en forma automática, usando el nombre del microservicio.
 
-Introduction: 
+Introduction:
 
 When microservices deploy, they connect to Eureka server and register their names
 in the machine or IP, and the port.
